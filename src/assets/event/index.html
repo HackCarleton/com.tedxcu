@@ -1,0 +1,26 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>Object.defineProperty(screen, "availTop", { value: 0 });
+Object.defineProperty(screen, "availLeft", { value: 0 });
+Object.defineProperty(screen, "availWidth", { value: 1920 });
+Object.defineProperty(screen, "availHeight", { value: 1080 });
+Object.defineProperty(screen, "colorDepth", { value: 24 });
+Object.defineProperty(screen, "pixelDepth", { value: 24 });
+Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+Object.defineProperty(navigator, "userAgent", { value: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0" });
+Object.defineProperty(navigator, "appVersion", { value: "5.0 (X11)" });
+Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+window.screenY = 0
+window.screenTop = 0
+
+                try {
+                    window.top.window.outerHeight = window.screen.height
+
+                } catch (e) {}
+            window.screenX = 0
+window.screenLeft = 0
+
+                try {
+                    window.top.window.outerWidth = window.screen.width
+
+                } catch (e) {}
+            </script></head><body></body></html>
