@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "TEDxCarletonUniversity",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The TEDx Page for Carleton Univeristy. Brining bright minds together.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Varun Sindwani <varun@sindwani.com>",
   "dependencies": {
     "gatsby": "^2.32.0",
     "gatsby-image": "^2.4.19",

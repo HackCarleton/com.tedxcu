@@ -5,7 +5,7 @@ import { slide as Menu } from 'react-burger-menu'
 
 import Instagram from '../assets/social/instagram.png'
 import Facebook from '../assets/social/facebook.png'
-import Twitch from '../assets/social/twitch.png'
+import Twitch from '../assets/social/tickets.png'
 import Linkedin from '../assets/social/linkedin.png'
 import Lightbulb from '../assets/social/lightbulb.png'
 
@@ -27,7 +27,7 @@ const Header = () => {
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSffXa13uT0ewrTmrSH87v-vl5YDyH888WCX10OdCE1UaU5ZDw/viewform" className="hover:border-b-2 hover:border-tedx border-b-2 border-white mx-4  my-auto">Contact</a>
         <a href="https://www.instagram.com/tedxcarletonuniversity/" className="mt-1 ml-4 mr-1 "><img src={Instagram} className="w-2/3"/> </a>
         <a href="https://www.facebook.com/tedxcarleton" className="mt-1 mx-1 "><img src={Facebook} className="w-2/3"/> </a>
-        <a href="" className="mt-1 mx-1 "><img src={Twitch} className="w-2/3"/> </a>
+        <a href="https://www.eventbrite.ca/e/tedxcarletonuniversity-presents-lightbulb-moments-virtual-conference-tickets-139574435895?fbclid=IwAR2DXgnCFRykETPAwT2-S1iFecnk8ebJATbLDF4Zbfyrf_qzL1cGt9Ijbk0" className="mt-1 mx-1 "><img src={Twitch} className="w-2/3"/> </a>
         <a href="https://www.linkedin.com/company/tedxcarletonuniversity/about/" className="mt-1 mx-1 "><img src={Linkedin} className="w-2/3"/> </a>
       </ul>
     </div>

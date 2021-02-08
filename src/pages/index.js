@@ -211,8 +211,8 @@ const IndexPage = () => {
     </div>
     <div className=" px-8 md:px-0 max-w-xs md:max-w-4xl mx-auto">
       <div className="flex mb-12 text-white text-xl max-w-md mx-auto">
-        <img src={ExecFive} className="rounded-full w-1/4 mr-auto" /> 
-        <img src={ExecTwo} className="rounded-full w-1/4  text-white text-xl ml-auto" /> 
+        <img src={ExecFive} className="w-32 mr-auto md:h-auto rounded-lg" /> 
+        <img src={ExecTwo} className="w-32  text-white text-xl ml-auto rounded-lg md:h-auto" /> 
        
       </div>
       <div className="text-white text-2xl">
@@ -251,7 +251,7 @@ const IndexPage = () => {
         </div>
       </div>
     </section> */}
-    <section className="bg-black" id="speakers">
+    {/* <section className="bg-black" id="speakers">
       <div className="flex flex-col mb-20">
           <h1 className="mx-auto text-white font-bold text-xl md:text-3xl">Speakers</h1>
           <div className="h-1 w-full max-w-xs md:max-w-md bg-tedx mt-4 mx-auto"></div>
@@ -281,7 +281,7 @@ const IndexPage = () => {
           </div>
         <div className="mt-8 mb-64  text-xl text-center md:text-3xl">Coming Soon...</div>
       </div>
-    </section>
+    </section> */}
     <section className="bg-black" id="team">
       <div className="my-16 text-white max-w-6xl mx-auto">
         <div className="mt-8 mb-64 text-3xl">
