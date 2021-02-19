@@ -211,8 +211,8 @@ const IndexPage = () => {
     </div>
     <div className=" px-8 md:px-0 max-w-xs md:max-w-4xl mx-auto">
       <div className="flex flex-col md:flex-row mb-12 text-white text-xl px-4 w-full max-w-full md:max-w-md mx-auto justify-around ">
-        <img src={ExecFive} className="w-32 md:mr-auto max-h-full rounded-lg mr-4" /> 
-        <img src={ExecTwo} className="w-32  ml-4 max-h-full text-white text-xl md:ml-auto rounded-lg md:h-auto" /> 
+        <img src={ExecFive} className="w-32 mx-auto md:mr-auto max-h-full rounded-lg" /> 
+        <img src={ExecTwo} className="w-32  mx-auto max-h-full text-white text-xl md:ml-auto rounded-lg md:h-auto" /> 
        
       </div>
       <div className="text-white text-2xl">
